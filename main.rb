@@ -6,7 +6,7 @@ class Kata
     @largo = largo
     @ancho = ancho
     @generacion = 1
-    @grid = []
+    @grid = [] 
     @muertes =[]
     @vivas = []
   end
@@ -83,8 +83,6 @@ class Kata
     end
 
   end
-
-
 
   def evolucionar
     @generacion+=1
